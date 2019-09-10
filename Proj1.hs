@@ -2,8 +2,20 @@
     COMP30030 Project 1 - Card Guessing Game
     Arthur: Yunfei Jing 987784
 
-    The aim of this project is to guess a set of selected cards, given the 
-    feedback of each guess, and try to make least guess based on the feedbacks.
+    This is a two-player logical guessing game. Two players face each other, 
+    each with a complete standard deck of western playing cards 
+    (without jokers). One player will be the answerer and the other is the 
+    guesser. The answerer begins by selecting some number of cards from his or 
+    her deck without showing the guesser. These cards will form the answer for 
+    this game. The aim of the game is for the guesser to guess the answer.
+    Once the answerer has selected the answer, the guesser chooses the same 
+    number of cards from his or her deck to form the guess and shows them to 
+    the answerer. The answerer responds by telling the guesser these ve numbers 
+    as feedback for the guess.
+    The guesser then guesses again, and receives feedback for the new guess, 
+    repeating the process until the guesser guesses the answer correctly. 
+    The object of the game for the guesser is to guess the answer with the 
+    fewest possible guesses.
 -}
 
 module Proj1 (feedback, initialGuess, nextGuess, GameState) where
