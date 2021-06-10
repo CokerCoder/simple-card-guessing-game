@@ -1,2 +1,2 @@
 # Simple Card Guessing Game
-A two-player logical guessing game implementing using Haskell
+A two-player logical guessing game written in Haskell
